@@ -1,0 +1,59 @@
+# ====================================
+# FICHIERS DE CONFIGURATION ET SYSTÈME
+# ====================================
+
+# Fichiers générés par l'OS
+.DS_Store        # macOS
+Thumbs.db        # Windows
+desktop.ini
+
+# Dossier de la corbeille (Linux / macOS)
+.Trash/
+
+# ====================================
+# DEPENDANCES ET BIBLIOTHÈQUES
+# ====================================
+
+# Dossier des dépendances installées par Composer
+/vendor/
+
+# ====================================
+# FICHIERS TEMPORAIRES OU CACHÉS
+# ====================================
+
+# Logs et fichiers de debug
+*.log
+*.tmp
+
+# Cache (ex : Smarty, Twig, ou frameworks PHP)
+cache/
+tmp/
+
+# ====================================
+# CONFIGURATION LOCALE
+# ====================================
+
+# Fichiers contenant des paramètres sensibles (ex. mot de passe DB)
+.env
+.env.local
+.env.development
+.env.production
+
+# ====================================
+# ÉDITEURS ET OUTILS
+# ====================================
+
+# VS Code
+.vscode/
+
+# JetBrains (PhpStorm)
+.idea/
+
+# ====================================
+# AUTRES FICHIERS INUTILES
+# ====================================
+
+# Sauvegardes ou fichiers créés automatiquement par des outils
+*.bak
+*.swp
+*.swo
